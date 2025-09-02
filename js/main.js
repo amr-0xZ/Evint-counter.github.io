@@ -68,7 +68,7 @@ $('.color4').on('click', function () {
 
 
 // date counter
-let date = new Date("Mar 25, 2024 20:55:55").getTime();
+let date = new Date("Mar 25, 2030 20:55:55").getTime();
 
 
 var counter = setInterval(function () {
@@ -89,5 +89,6 @@ var counter = setInterval(function () {
         document.getElementById('menet').innerHTML = "0";
         document.getElementById('second').innerHTML = "0";
     }
+
 
 },1000)
